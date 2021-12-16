@@ -1,7 +1,7 @@
 import webbrowser
 import random
 from datetime import datetime
-
+//Creates a list of food ideas.
 def ruokalista(num):
   
     with open('ruoat.txt', 'r', encoding='utf-8') as f:
