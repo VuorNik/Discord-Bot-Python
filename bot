@@ -9,6 +9,8 @@ from yt import yt
 from dice_roll import dice_roll
 from ruokalista import ruokalista
 
+//This is the main code for the bot.
+
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 GUILD = os.getenv('GUILD')
