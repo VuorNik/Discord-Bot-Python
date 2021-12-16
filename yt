@@ -1,6 +1,6 @@
 import urllib
 import re
-//Fetches the first video from youtube search by given search phrase
+//Fetches the first video from youtube search by given search phrase.
 def yt(phrase):
   html = urllib.request.urlopen('https://www.youtube.com/results?search_query='+phrase)
   video_ids = re.findall(r'watch\?v=(\S{11})', html.read().decode())
